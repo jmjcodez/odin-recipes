@@ -76,11 +76,12 @@ h1, h2{
 	gap: 15px;
 	margin-bottom: 10px;
 	padding-left: 10px;
+	border: 2px red solid;
 }
 
 #recipe img, #recipe h1 {
-	margin: 0 auto;
 	text-align: center;
+	margin: 0 auto;
 }
 
 #recipe ul,ol {
