@@ -1,39 +1,93 @@
-.home{
-	width: 100vw;
+* {
+	box-sizing: border-box;
+	font-family: 'Verdana', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.hometitle {
+	font-size: 75px;
+}
+
+#home{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 100vh;
+	margin: 0;
+}
+#navbar a, #navbar{
+	font-size: 50px;
+	list-style: none;
+}
+#home body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 50px;
+}
+
+#navbar {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	align-content: center;
+	margin:0;
+	padding:0;
+	gap: 50px;
 }
+
+#navbar a:hover {
+	background-color: red;
+}
+
 
 body {
 	background-color: lightblue;	
-    font-family: 'Open Sans', sans-serif;
 }
 
+
+h1 {
+	font-size: 50px;
+}
 
 h1, h2{
 	color: navy;
 	font-weight: bold;
 }
 
-h2{
+#recipe h2{
 	text-decoration: underline;
 }
 
-p, ul, ol  {
-	font-weight: bold;
+
+#recipe {
+	display: flex;
+	flex-direction: column;
 	color: black;
 	font-size: larger;
-
+	align-items: left;
+	width: 100vw;
+	gap: 15px;
+	margin-bottom: 10px;
+	padding-left: 10px;
 }
 
-.hometitle {
-	font-size: 50px;
+#recipe img, #recipe h1 {
+	margin: 0 auto;
+	text-align: center;
 }
 
-#navbar {
-	font-size: 30px;
-	list-style: none;
-	
+#recipe ul,ol {
+	text-align: left;
+	list-style-position: inside;
+}
 
+ol > li::marker{
+	font-weight: bold;
 }
