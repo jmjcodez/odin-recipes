@@ -74,9 +74,8 @@ h1, h2{
 	align-items: left;
 	width: 100vw;
 	gap: 15px;
-	margin-bottom: 10px;
 	padding-left: 10px;
-	border: 2px red solid;
+	padding-bottom: 20px;
 }
 
 #recipe img, #recipe h1 {
